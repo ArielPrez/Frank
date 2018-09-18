@@ -1,0 +1,16 @@
+.forms{
+  margin-top: 3%;
+}
+
+.formBtn{
+  margin: 60% 0 0 0;
+}
+
+.signupErr .form-control.ng-touched.ng-invalid{
+  border: 1px solid red;
+}
+
+.errMsg{
+  color: red;
+  border-radius: 3px;
+}

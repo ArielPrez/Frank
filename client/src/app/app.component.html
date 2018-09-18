@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="main">
+    <div class="ui four item massive top inverted fixed menu" [ngClass]="{'secondary': NavID, 'teal': NavID2}">
+        <!-- inverted -->
+       <a class="item" [routerLink]="['/home']">
+         Home
+       </a>
+       <a class="item" [routerLink]="['/functions']">
+        Functions
+       </a>
+       <a class="item" [routerLink]="['/about']">
+        About
+       </a>
+       <a *ngIf="this.authControlLog.globalUser" class="item" (click)="logout()">
+        Logout - {{this.authControlLog.globalUser}}
+      </a>
+     </div>
+       <router-outlet></router-outlet>
+</div>

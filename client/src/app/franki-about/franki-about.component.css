@@ -1,0 +1,46 @@
+.pusher {
+  margin-top: 5%;
+  color: black;
+}
+
+.backGround {
+  background-color: #E21805;
+}
+
+.buybtn {
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 7px;
+  margin: 8% 0 8% 7%;
+  padding: 8px 0px;
+   /* Smoothing out hover using css3 transitions, if not, the pressed button effect looks a bit hard */
+  transition: all 0.4s ease;
+   /* Size */
+  line-height: 25px;
+  width: 40%;
+  height: 45px;
+  font-size: 100%;
+  font-size: 18px;
+   /* Colors */
+  background: white;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  color: rgb(54, 134, 141);
+}
+.buybtn:hover {
+  background: rgb(54, 134, 141);
+  box-shadow: 0 2px rgb(170, 170, 170);
+  color: white;
+}
+.buybtn:active {
+  top: 3px;
+  box-shadow: none;
+}
+.editErr .form-control.ng-touched.ng-invalid{
+  border: 1px solid red;
+}
+.errMsg{
+  color: red;
+  border-radius: 3px;
+}

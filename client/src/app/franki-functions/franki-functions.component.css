@@ -1,0 +1,21 @@
+.servoButton{
+  margin-left: 30%;
+}
+
+.toggleButton {
+  margin-top: 6%;
+}
+
+.pusher {
+  margin-top: 5%;
+}
+.blackDiv{
+  color: black;
+}
+.whiteDiv{
+  color: white;
+}
+
+.toTheRight {
+  margin-left: 20%;
+}
